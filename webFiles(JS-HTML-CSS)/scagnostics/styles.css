@@ -1,0 +1,63 @@
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content:right;
+}
+
+.flex-row {
+    width: 115px;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+}
+
+.axis-grid line {
+    stroke: #def;
+}
+
+.categoryHolder {
+    width: 2%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.marker {
+    width: 1px;
+    background-color: black;
+    margin-right: 1px;
+}
+
+h2 {
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-end: 0;
+    margin-inline-end: 0;
+}
+h5 {
+    width: 115px;
+    margin: auto 0;
+    margin-inline-end: 0;
+    margin-inline-end: 0;
+}
+
+h6 {
+    text-align: center;
+    margin: auto;
+}
+
+.columnLabelContainer {
+    display: flex;
+    width: 115px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto 0;
+}
+.columnHousing{
+    display: flex;
+    text-align: center;
+    width: 115px;
+    height: 80px;
+    background-color: gray;
+    position:relative;
+}
